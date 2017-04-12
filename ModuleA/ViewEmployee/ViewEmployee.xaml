@@ -1,0 +1,34 @@
+﻿<UserControl x:Class="ModuleA.Views.ViewEmployee"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+              xmlns:prism="http://prismlibrary.com/"  
+             prism:ViewModelLocator.AutoWireViewModel="True"
+             mc:Ignorable="d" d:DesignWidth="343" Height="190">
+    <DataGrid Height="191" ItemsSource="{Binding empList}" AutoGenerateColumns="True">
+        <DataGrid.Background>
+            <LinearGradientBrush StartPoint="1,0" EndPoint="1,1">
+                <GradientStop Color="White" Offset="0.2" />
+                <GradientStop Color="Moccasin" Offset="1.0" />
+            </LinearGradientBrush>
+        </DataGrid.Background>
+        <DataGrid.Columns>
+            <DataGridTemplateColumn Header="Edit">
+                <DataGridTemplateColumn.CellTemplate>
+                    <DataTemplate>
+                        <Button Content="Edit" Click="GoToEditEmployeeWindow" />
+                    </DataTemplate>
+                </DataGridTemplateColumn.CellTemplate>
+            </DataGridTemplateColumn>
+            <DataGridTemplateColumn Header="Delete">
+                <DataGridTemplateColumn.CellTemplate>
+                    <DataTemplate>
+                        <Button Content="Delete" Click="GoToDeleteEmployeeWindow" />
+                    </DataTemplate>
+                </DataGridTemplateColumn.CellTemplate>
+            </DataGridTemplateColumn>
+        </DataGrid.Columns>
+    </DataGrid>
+
+</UserControl>
