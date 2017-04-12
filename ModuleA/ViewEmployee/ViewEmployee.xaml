@@ -6,14 +6,14 @@
               xmlns:prism="http://prismlibrary.com/"  
              prism:ViewModelLocator.AutoWireViewModel="True"
              mc:Ignorable="d" d:DesignWidth="343" Height="190">
-    <DataGrid Height="191" ItemsSource="{Binding empList}" AutoGenerateColumns="True">
+    <DataGrid Height="191" ItemsSource="{Binding Employees}" AutoGenerateColumns="True">
         <DataGrid.Background>
             <LinearGradientBrush StartPoint="1,0" EndPoint="1,1">
                 <GradientStop Color="White" Offset="0.2" />
                 <GradientStop Color="Moccasin" Offset="1.0" />
             </LinearGradientBrush>
         </DataGrid.Background>
-        <DataGrid.Columns>
+        <!--<DataGrid.Columns>
             <DataGridTemplateColumn Header="Edit">
                 <DataGridTemplateColumn.CellTemplate>
                     <DataTemplate>
@@ -28,7 +28,7 @@
                     </DataTemplate>
                 </DataGridTemplateColumn.CellTemplate>
             </DataGridTemplateColumn>
-        </DataGrid.Columns>
+        </DataGrid.Columns>-->
     </DataGrid>
 
 </UserControl>

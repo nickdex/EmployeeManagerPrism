@@ -31,3 +31,5 @@ C:\Users\nwarke\Source\Repos\EmployeeManagerPrism\ModuleA\bin\Debug\Prism.Wpf.xm
 C:\Users\nwarke\Source\Repos\EmployeeManagerPrism\ModuleA\obj\Debug\ModuleA.dll
 C:\Users\nwarke\Source\Repos\EmployeeManagerPrism\ModuleA\obj\Debug\ModuleA.pdb
 C:\Users\nwarke\Source\Repos\EmployeeManagerPrism\ModuleA\obj\Debug\AddEditDeleteModule.csprojResolveAssemblyReference.cache
+C:\Users\nwarke\Source\Repos\EmployeeManagerPrism\ModuleA\bin\Debug\Repository.dll
+C:\Users\nwarke\Source\Repos\EmployeeManagerPrism\ModuleA\bin\Debug\Repository.pdb

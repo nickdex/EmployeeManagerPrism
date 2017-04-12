@@ -29,3 +29,5 @@ C:\Users\nwarke\Source\Repos\EmployeeManagerPrism\BasicRegionNavigation\bin\Debu
 C:\Users\nwarke\Source\Repos\EmployeeManagerPrism\BasicRegionNavigation\obj\Debug\Main.csprojResolveAssemblyReference.cache
 C:\Users\nwarke\Source\Repos\EmployeeManagerPrism\BasicRegionNavigation\obj\Debug\BasicRegionNavigation.exe
 C:\Users\nwarke\Source\Repos\EmployeeManagerPrism\BasicRegionNavigation\obj\Debug\BasicRegionNavigation.pdb
+C:\Users\nwarke\Source\Repos\EmployeeManagerPrism\BasicRegionNavigation\bin\Debug\Repository.dll
+C:\Users\nwarke\Source\Repos\EmployeeManagerPrism\BasicRegionNavigation\bin\Debug\Repository.pdb
